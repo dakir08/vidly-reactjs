@@ -10,8 +10,7 @@ const ListGroup = props => {
   } = props;
   return (
     <React.Fragment>
-      <p>Category</p>
-      <ul className="list-group">
+      <ul className="list-group m-2">
         {genres.map(genre => (
           <li
             className={
