@@ -14,7 +14,7 @@ const ListGroup = props => {
         {genres.map(genre => (
           <li
             className={
-              genre === selectedGenre || genre[valueProperty] === 1
+              genre === selectedGenre
                 ? "list-group-item active"
                 : "list-group-item"
             }

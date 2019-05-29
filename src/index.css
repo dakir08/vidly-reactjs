@@ -15,3 +15,37 @@ code {
 a {
   cursor: pointer;
 }
+
+.animatedHeader {
+  cursor: pointer;
+  animation: animate 1s infinite;
+}
+
+@keyframes animate {
+  0% {
+    color: black;
+  }
+  10% {
+    color: blue;
+  }
+  20% {
+    color: red;
+  }
+  40% {
+    color: purple;
+  }
+  60% {
+    color: yellow;
+  }
+  80% {
+    color: orange;
+  }
+  100% {
+    color: red;
+  }
+}
+
+/* .animatedHeader:hover {
+  color: red;
+  transform: scale(1.1);
+} */
