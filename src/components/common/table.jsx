@@ -1,7 +1,7 @@
 import React from "react";
-
-import TableHeader from "./tableHeader";
 import TableBody from "./tableBody";
+import TableHeader from "./tableHeader";
+
 
 const Table = ({ columns, onSort, sortColumn, onDelete, onFavorite, data }) => {
   return (
